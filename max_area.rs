@@ -8,8 +8,6 @@ fn main(){
     println!("Calculated maximum volume = {}", result);
 }
 
-
-
 fn calculate_volume_at_point(index1: usize, index2: usize, height: &Vec<i32>) -> i32 {
     let height1 = height[index1];
     let height2 = height[index2];
